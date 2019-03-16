@@ -1,0 +1,6 @@
+[submodule "lib/powerpoof_firmware"]
+	path = lib/powerpoof_firmware
+	url = https://tambel@bitbucket.org/powerpoof/powerpoof_firmware.git
+[submodule "powerpoof_firmware"]
+	path = powerpoof_firmware
+	url = https://tambel@bitbucket.org/powerpoof/powerpoof_firmware.git
