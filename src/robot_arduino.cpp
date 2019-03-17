@@ -70,7 +70,7 @@ ROBOT_BASE_IMPLEMENT(void)::restart()
 
 ROBOT_BASE_IMPLEMENT(void)::init_sound()
 {
-    Serial1.begin (9600);
+    //Serial1.begin (9600);
    // mp3_set_serial (Serial1);
     delay(1);
     //mp3_set_volume (30);
@@ -260,7 +260,7 @@ void Robot::wait_for_session()
 {
     
     wait_for_serial(Serial);
-    wait_for_serial(Serial2);
+    //wait_for_serial(Serial2);
 }
 
 
